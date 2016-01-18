@@ -24,7 +24,34 @@ defineTags = function() {
       slug: "data-scientist",
       description: "Combine statistics, data mining, and predictive analytics to gain insight from large data sets.",
       tagType: "professional-goals"
+    },
+    {
+      name: "Programming",
+      slug: "programming",
+      description: "Process that leads from an original formulation of a computing problem to executable computer" +
+      " programs.",
+      tagType: "cs-disciplines"
+    },
+    {
+      name: "Databases",
+      slug: "databases",
+      description: "Collection of information that is organized so that it can easily be accessed, managed, and" +
+      " updated.",
+      tagType: "cs-disciplines"
+    },
+    {
+      name: "Network Security",
+      slug: "network-security",
+      description: "Process of taking physical and software preventative measures to protect the underlying networking infrastructure from unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure, thereby creating a secure platform",
+      tagType: "professional-goals"
+    },
+    {
+      name: "Java",
+      slug: "java",
+      description: "General-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+      tagType: "cs-disciplines"
     }
+
   ];
 
   _.each(sampleTags, RadGrad.tag.define);
